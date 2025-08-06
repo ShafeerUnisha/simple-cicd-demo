@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Quiz</title>
+  <style>
+    body {
+      font-family: Times New Roman;
+      background: lavender;
+      padding: 20px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .question {
+      margin-bottom: 20px;
+      padding: 15px;
+      background: white;
+      border-radius: 10px; 
+    }
+
+    .question p {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      cursor: pointer;
+    }
+
+    input[type="submit"] {
+      padding: 10px 20px;
+      background:blue;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      display: block;
+    }
+    
+    marquee {
+      font-size: 22px;
+      font-weight: bold;
+      color:purple;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="quiz-container">
+    <marquee>Online Quiz - General Knowledge</marquee>
+    <form action="#">
+      
+      <div class="question">
+        <p>1. What is the capital of India?</p>
+        <label><input type="radio" name="q1"> Mumbai</label>
+        <label><input type="radio" name="q1"> Delhi</label>
+        <label><input type="radio" name="q1"> Bangalore</label>
+        <label><input type="radio" name="q1"> Kolkata</label>
+      </div>
+
+      <div class="question">
+        <p>2. Which planet is known as the Red Planet?</p>
+        <label><input type="radio" name="q2"> Earth</label>
+        <label><input type="radio" name="q2"> Mars</label>
+        <label><input type="radio" name="q2"> Jupiter</label>
+        <label><input type="radio" name="q2"> Venus</label>
+      </div>
+
+      <div class="question">
+        <p>3. What is the boiling point of water?</p>
+        <label><input type="radio" name="q3"> 100°C</label>
+        <label><input type="radio" name="q3"> 90°C</label>
+        <label><input type="radio" name="q3"> 50°C</label>
+        <label><input type="radio" name="q3"> 80°C</label>
+      </div>
+
+      <div class="question">
+        <p>4. Which is the largest ocean?</p>
+        <label><input type="radio" name="q4"> Indian</label>
+        <label><input type="radio" name="q4"> Atlantic</label>
+        <label><input type="radio" name="q4"> Arctic</label>
+        <label><input type="radio" name="q4"> Pacific</label>
+      </div>
+
+      <div class="question">
+        <p>5. Who is known as the father of computers?</p>
+        <label><input type="radio" name="q5"> Charles Babbage</label>
+        <label><input type="radio" name="q5"> Newton</label>
+        <label><input type="radio" name="q5"> Einstein</label>
+        <label><input type="radio" name="q5"> Turing</label>
+      </div>
+
+      <center><input type="submit" value="Submit"></center>
+
+    </form>
+  </div>
+
+</body>
+</html>
